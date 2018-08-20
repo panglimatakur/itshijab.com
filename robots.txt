@@ -7,3 +7,7 @@ Dissallow: /products/
 Allow: /
 Sitemap: http://itshijab.com/sitemap.xml
 Sitemap: http://www.itshijab.com/sitemap.xml
+
+#Begin Attracta SEO Tools Sitemap. Do not remove
+sitemap: http://cdn.attracta.com/sitemap/5560895.xml.gz
+#End Attracta SEO Tools Sitemap. Do not remove

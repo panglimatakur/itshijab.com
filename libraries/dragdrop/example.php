@@ -86,12 +86,12 @@ $(document).ready(function(){
 		<div id="contentLeft">
 			<ul>
 				<?php
-				$query  = "SELECT * FROM system_pages_client WHERE ID_PARENT = '0' ORDER BY SERI ASC";
+				$query  = "SELECT * FROM system_pages WHERE ID_PARENT = '0' ORDER BY SERI ASC";
 				$result = mysql_query($query);
 				
 				while($row = mysql_fetch_array($result, MYSQL_ASSOC)){
 				?>
-					<li id="recordsArray_<?php echo $row['ID_PAGE_CLIENT']; ?>"><?php echo $row['ID_PAGE_CLIENT'] . ". " . $row['NAME']; ?></li>
+					<li id="recordsArray_<?php echo $row['ID_PAGE']; ?>"><?php echo $row['ID_PAGE'] . ". " . $row['NAME']; ?></li>
 				<?php } ?>
 			</ul>
 		</div>

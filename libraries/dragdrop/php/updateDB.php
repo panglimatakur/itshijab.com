@@ -7,7 +7,7 @@ if ($action == "updateRecordsListings"){
 	$listingCounter = 1;
 	foreach ($updateRecordsArray as $recordIDValue) {
 		
-		$query = "UPDATE system_pages_client SET SERI = " . $listingCounter . " WHERE ID_PAGE_CLIENT = " . $recordIDValue;
+		$query = "UPDATE system_pages SET SERI = " . $listingCounter . " WHERE ID_PAGE = " . $recordIDValue;
 		mysql_query($query) or die('Error, insert query failed');
 		$listingCounter = $listingCounter + 1;	
 	}

@@ -52,7 +52,7 @@ class db {
 		}
 		//echo $vals."<br>";
 		$sql = mysql_query("INSERT INTO ".$table." (".$fields.") VALUES (".$vals.")");
-		//echo "INSERT INTO ".$table." (".$fields.") VALUES (".$vals.")<br>";
+		#echo "INSERT INTO ".$table." (".$fields.") VALUES (".$vals.")<br>";
 		return $sql;
 		
 	}

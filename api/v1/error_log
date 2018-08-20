@@ -1,0 +1,28 @@
+[28-Apr-2018 21:01:59 Asia/Jakarta] PHP Warning:  include_once(.../../includes/functions.php): failed to open stream: No such file or directory in /home/itshijab/public_html/api/v1/api.php on line 6
+[28-Apr-2018 21:01:59 Asia/Jakarta] PHP Warning:  include_once(): Failed opening '.../../includes/functions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/itshijab/public_html/api/v1/api.php on line 6
+[28-Apr-2018 21:01:59 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:02:25 Asia/Jakarta] PHP Warning:  include_once(.../../includes/functions.php): failed to open stream: No such file or directory in /home/itshijab/public_html/api/v1/api.php on line 6
+[28-Apr-2018 21:02:25 Asia/Jakarta] PHP Warning:  include_once(): Failed opening '.../../includes/functions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/itshijab/public_html/api/v1/api.php on line 6
+[28-Apr-2018 21:02:25 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:02:44 Asia/Jakarta] PHP Warning:  include_once(.../../includes/functions.php): failed to open stream: No such file or directory in /home/itshijab/public_html/api/v1/api.php on line 6
+[28-Apr-2018 21:02:44 Asia/Jakarta] PHP Warning:  include_once(): Failed opening '.../../includes/functions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/itshijab/public_html/api/v1/api.php on line 6
+[28-Apr-2018 21:02:44 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:03:06 Asia/Jakarta] PHP Warning:  include_once(.../../includes/functions.php): failed to open stream: No such file or directory in /home/itshijab/public_html/api/v1/api.php on line 6
+[28-Apr-2018 21:03:06 Asia/Jakarta] PHP Warning:  include_once(): Failed opening '.../../includes/functions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/itshijab/public_html/api/v1/api.php on line 6
+[28-Apr-2018 21:03:06 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:04:08 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:06:23 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:06:26 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:06:41 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:07:51 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:08:21 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:21:58 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:22:47 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:23:26 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:24:20 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:24:22 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:24:57 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:25:25 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:25:42 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:30:29 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
+[28-Apr-2018 21:30:30 Asia/Jakarta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/itshijab/public_html/includes/classes/class.db.php on line 173
