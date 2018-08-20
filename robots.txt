@@ -1,0 +1,9 @@
+User-agent: *
+Dissallow: /files/
+Dissallow: /includes/
+Dissallow: /libraries/
+Dissallow: /modules/
+Dissallow: /products/
+Allow: /
+Sitemap: http://itshijab.com/sitemap.xml
+Sitemap: http://www.itshijab.com/sitemap.xml

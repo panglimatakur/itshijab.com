@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.product_content{
+	position:relative;
+	float:left;
+	border:1px solid #D4D4D4;
+	border-radius:0.6em;
+	-moz-border-radius:0.2em;
+	-webkit-border-radius:0.2em;
+	background:#E8E8E8;
+	font-size:12px;
+	padding:9px 4px 4px 4px;
+	width:30%;
+}
+
+
+.product_content .close_button{
+ 	position:absolute;
+	cursor:pointer;
+}
+.frame_photo{
+	height:150px;
+	overflow:hidden;
+	margin:8px 0 4px 0;	
+}
+.code{
+	text-transform:uppercase;	
+}
+
+.form_edit input[type=text], .form_edit textarea{
+	width:50%;	
+}

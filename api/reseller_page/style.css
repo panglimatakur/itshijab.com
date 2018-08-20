@@ -1,0 +1,90 @@
+@charset "utf-8";
+body{ font-family:"Century Gothic"; }
+header{ margin-bottom:20px;}
+header,footer{
+	border:1px solid #DB7963;
+	background:#DB7963;
+	color:#FFF;
+	
+}
+footer{
+	margin-top:20px;
+	padding:20px;	
+}
+header a{ color:#FFF; }
+header a:hover{ color:#FC0; font-weight:bold; }
+a, a:hover{text-decoration:none; }
+a:hover{ color:#FF8080; }
+.list-group-menu a{ color:#DB7963; font-weight:bold; }
+
+.nav.navbar-nav li a:hover{ background:none; }
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	color: #FFF;
+	border: 0 none;
+}
+
+.login-cart, .login-cart table{
+	font-size:12px;	
+}
+.item-box{
+	position:relative;
+	border:1px solid #CCC;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;	
+	padding:5px 9px 5px 9px;
+	margin-bottom:9px;
+}
+.item-box h3{
+	margin:5px 0 10px 0; 
+	padding:0 0 10px 0; 
+	border-bottom:1px double #F5F5F5; 
+	font-size:16px;
+	font-weight:bold;
+	color:#DB7963;
+}
+.item-box .price{ font-size:18px; color:#FC0; font-weight:bold; padding:10px; }
+.item-box .btn-item-box{ position:absolute; bottom:0; margin-bottom:4px;}
+
+
+.item-box.item-box-list{ height:360px; }
+.item-box.item-box-list h3{ text-align:center; }
+.item-box.item-box-list.img-thumbnail-inner{ height:200px; overflow:hidden }
+.item-box.item-box-list .price{ text-align:center; }
+
+.item-box.item-box-single{ padding-bottom:15px; padding-top:15px; }
+.npl{ padding-left:0; }
+.title{ 
+	border-bottom:1px double #F5F5F5; 
+	padding-bottom:15px;
+	margin-bottom:20px;
+	color:#DB7963;
+}
+
+.capitalize{ text-transform:capitalize; }
+.uppercase{ text-transform:uppercase; }
+.lowercase{ text-transform:lowercase; }
+.req:after { content: " *"; color: #ff0000; }
+.footer_btn{
+	width:93%; 
+	padding:5px 5px 5px 7px; 
+	margin-bottom:3px; 
+	bottom:0; 
+	background:#FFF;	
+}

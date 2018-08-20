@@ -1,0 +1,19 @@
+#contentLeft{
+	font-size:12px;	
+}
+#contentLeft ul{
+	margin:0;	
+}
+.page_list{
+	border:1px solid #E9E9E9;
+	font-size:12px;
+	margin:9px; 
+	text-align:left;
+	padding:6px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+.page_list:hover{
+	background:#F7F7F7;	
+}

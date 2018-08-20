@@ -1,0 +1,27 @@
+<ifModule mod_headers.c>
+Header unset ETag
+</ifModule>
+FileETag None
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Options +FollowSymLinks
+RewriteRule ^(alibaba)$ index.php?module=cpanel&page=login [L]
+RewriteRule ^(cpanel)/([a-z0-9_]+)$ index.php?module=$1&page=$2 [L]
+RewriteRule ^([a-z0-9_]+)$ index.php?page=$1 [L]
+RewriteRule ^([a-z0-9_]+)/([a-z0-9_/-]+)$ index.php?page=$1&parameters=$2 [L]
+RewriteRule ^(sitemap.xml)$ sitemap.php [L]
+</ifModule>
+
+<IfModule mod_expires.c>
+# Expire images header
+ExpiresActive On
+ExpiresDefault A0
+ExpiresByType image/gif A2592000
+ExpiresByType image/png A2592000
+ExpiresByType image/jpg A2592000
+ExpiresByType image/jpeg A2592000
+ExpiresByType image/ico A2592000
+ExpiresByType text/css A2592000
+ExpiresByType application/javascript A2592000
+</ifModule>
