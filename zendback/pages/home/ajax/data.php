@@ -13,7 +13,7 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
 	if(!empty($direction) && $direction == "fetch_data"){ 
 		if(empty($periode)){ 
 			$periode 	= "bulanan";
-			$thn 		= 2017; 
+			$thn 		= 2018; 
 		}
 		$condition	= "";
 		switch($periode){
@@ -45,7 +45,10 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
 				break;
 			}
 		
-			$q_log = $db->query("SELECT COUNT(ID_VISITOR_LOG) AS JUMLAH FROM cat_visitor_logs WHERE ID_VISITOR_LOG IS NOT NULL ".$condition." ORDER BY ID_VISITOR_LOG DESC");
+			$q_log = $db->query("SELECT COUNT(ID_VISITOR_LOG) AS JUMLAH FROM cat_visitor_logs WHERE ID_VISITOR_LOG IS NOT NULL ".$condition." AND 
+			(ACTIVITY NOT LIKE '%http://www.bing.com/bingbot.htm%' OR 
+			 ACTIVITY NOT LIKE '%http://www.baidu.com/search/spider.html%' OR
+			 ACTIVITY NOT LIKE '%http://www.google.com/bot.html%')ORDER BY ID_VISITOR_LOG DESC");
 			$dt_log = $db->fetchNextObject($q_log);
 			if(empty($dt_log->JUMLAH)){ $jumlah = 0; }else{ $jumlah = $dt_log->JUMLAH; }
 			@$result[] = $jumlah;

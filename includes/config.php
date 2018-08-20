@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 defined('mainload') or die('Restricted Access');
-	$conf = 2;
+	$conf = 1;
 	if($conf == 1){
 		$db_host 		= 'localhost';
 		$db_user 		= 'root';
