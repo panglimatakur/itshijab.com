@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 defined('mainload') or die('Restricted Access');
-	$conf = 1;
+	$conf = 2;
 	if($conf == 1){
 		$db_host 		= 'localhost';
 		$db_user 		= 'root';
@@ -12,9 +12,9 @@ defined('mainload') or die('Restricted Access');
 	}
 	if($conf == 2){
 		$db_host 		= 'localhost';
-		$db_user 		= 'www_itshijab_casudab';
+		$db_user 		= 'www_itshijab';
 		$db_password 	= 'casudabe220889';
-		$db_name 		= 'itshijab_its';
+		$db_name 		= 'www_itshijab_casudab';
 		$host 			= substr_count($_SERVER['HTTP_HOST'],"www.");
 		if($host > 0){
 			$dirhost		= "http://www.itshijab.com";
